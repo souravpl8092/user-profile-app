@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Card, Typography, Tooltip } from "antd";
 import { useDispatch } from "react-redux";
-import { deleteUser, toggleLikeUser } from "../redux/actions";
+import { deleteUser, toggleLikeUser } from "../redux/userSlice";
 import EditModal from "./EditModal";
 import {
   HeartOutlined,

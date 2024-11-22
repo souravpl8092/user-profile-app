@@ -188,23 +188,26 @@ LoadingSpinner
 
 - Uses Spinkit to display a loading animation while fetching user data.
 
+<br/>
+
 ## How to Use
 
 1. The app fetches a list of user profiles when loaded.
 2. Each card displays:
-   - User details (name, email, phone, website).
+   - User details (name, email, phone, website, address, company).
    - An avatar fetched from DiceBear API.
 3. Use the following actions
+   - Like: Click the heart icon to toggle between liked and unliked.
+   - Edit: Click the pencil icon to open a modal and update user details.
+   - Delete: Click the trash icon to remove the user from the list.
 
-- Like: Click the heart icon to toggle between liked and unliked.
-- Edit: Click the pencil icon to open a modal and update user details.
-- Delete: Click the trash icon to remove the user from the list.
+<br/>
 
 ## Dependencies
 
 - React: ^18.x
-- Redux: ^4.x
-- Redux-Thunk: ^2.x
+- Redux: ^9.x
+- Redux-Thunk: ^3.x
 - Ant Design: ^5.x
 - Spinkit: Used for loading indicators.
 

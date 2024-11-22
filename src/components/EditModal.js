@@ -1,14 +1,15 @@
 import React from "react";
 import { Modal, Form, Input, Button } from "antd";
 import { useDispatch } from "react-redux";
-import { editUser } from "../redux/actions";
+import { editUser } from "../redux/userSlice";
 
 const EditModal = ({ user, isVisible, onClose }) => {
   const [form] = Form.useForm();
   const dispatch = useDispatch();
 
   const handleSubmit = (values) => {
-    dispatch(editUser(user.id, values));
+    console.log(user.id, values);
+    dispatch(editUser({ id: user.id, updatedUser: values }));
     onClose();
   };
 

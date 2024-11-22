@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
 import { Row, Col } from "antd";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchUsers } from "../redux/actions";
 import UserCard from "../components/UserCard";
 import LoadingSpinner from "../components/LoadingSpinner";
+import { fetchUsers } from "../redux/userSlice";
 
 const UserProfiles = () => {
-  const users = useSelector((state) => state.users);
-  const loading = useSelector((state) => state.loading);
-  const error = useSelector((state) => state.error);
+  const { users, loading, error } = useSelector((state) => state.user);
   const dispatch = useDispatch();
 
   useEffect(() => {
