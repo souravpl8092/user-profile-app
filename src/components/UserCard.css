@@ -1,0 +1,42 @@
+.ant-card-cover img {
+  height: 180px;
+  object-fit: contain;
+  background-color: #f5f5f5;
+  padding-top: 2%;
+}
+
+.ant-card {
+  border-radius: none;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-info .icon {
+  margin-right: 2%;
+  color: gray;
+  font-size: 14px;
+}
+
+.user-info .text {
+  color: gray;
+  font-size: 14px;
+}
+
+.user-card .ant-card-actions {
+  background-color: #f5f5f5 !important;
+  border-width: 2px !important;
+  border-radius: 0% !important;
+}
+
+.ant-card-actions > li > span {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.ant-card-actions > li > span:hover {
+  color: #1890ff;
+}
+
+.ant-card-actions > li:nth-child(1) > span {
+  color: #555;
+}
