@@ -16,7 +16,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://i.imgur.com/large.png" alt="Large Screen">
+      <img src="https://i.imgur.com/S7NZczG.png" alt="Large Screen">
     </td>
   </tr>
 </table>
@@ -29,7 +29,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://i.imgur.com/medium.png" alt="Medium Screen">
+      <img src="https://i.imgur.com/1VTw8pi.png" alt="Medium Screen">
     </td> 
   </tr>
 </table>
@@ -42,7 +42,20 @@
   </tr>
   <tr>
     <td>
-      <img src="https://i.imgur.com/small.png" alt="Small Screen">
+      <img src="https://i.imgur.com/kAP1SNO.png" alt="Small Screen">
+    </td>
+  </tr>
+</table>
+
+<table>
+<tr>
+    <td>
+      <h2 align="center">Edit User Profile Form</h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/pOMpAtl.png" alt="Edit User Profile">
     </td>
   </tr>
 </table>
